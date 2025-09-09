@@ -25,3 +25,4 @@ public class webSocketConfig implements WebSocketMessageBrokerConfigurer {
         registry.setApplicationDestinationPrefixes("/app");
     }
 }
+
