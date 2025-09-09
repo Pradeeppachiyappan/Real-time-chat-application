@@ -36,7 +36,7 @@
         document.getElementById('sendMessage').disabled = !connected;
     }
     function connect(){
-        var socket = new SockJS('/chat');
+        var socket = new SockJS('https://real-time-chat-application.railway.internal');
         stompClient = Stomp.over(socket);
         stompClient.connect({},function (frame) {
            setConnected(true);
