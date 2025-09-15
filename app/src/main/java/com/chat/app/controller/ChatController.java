@@ -12,6 +12,7 @@ public class ChatController {
     @MessageMapping("/sendMessage")
     @SendTo("/topic/messages")
     public ChatMessage sendMessage(ChatMessage message){
+        message.setId(System.currentTimeMillis());
         return message;
     }
 
