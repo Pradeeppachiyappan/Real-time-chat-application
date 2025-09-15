@@ -36,7 +36,7 @@
         document.getElementById('sendMessage').disabled = !connected;
     }
     function connect(){
-        var socket = new SockJS('http://real-time-chat-application-production-a9ee.up.railway.app');
+        var socket = new SockJS('https://real-time-chat-application-production-a9ee.up.railway.app/chat');
         stompClient = Stomp.over(socket);
         stompClient.connect({},function (frame) {
            setConnected(true);
@@ -54,7 +54,7 @@
             chat.scrollTop = chat.scrollHeight;
         }
 
-        function sendMessage(message){
+        function sendMessage(){
             var sender = document.getElementById('senderInput').value;
             var content = document.getElementById('messageInput').value;
             var chatMessage = {
