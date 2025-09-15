@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2497642e-9b6d-4398-ad86-a0eaec009ff7" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chat/app/config/webSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chat/app/config/webSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chat/app/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chat/app/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chat/app/model/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chat/app/model/ChatMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/chat.html" afterDir="false" />
-    </list>
+    <list default="true" id="2497642e-9b6d-4398-ad86-a0eaec009ff7" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757391287516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1757918759484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757918759484</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1757919785817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757919785817</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

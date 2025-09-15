@@ -13,7 +13,7 @@ public class webSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/chat")
-                .setAllowedOrigins("http://real-time-chat-application-production-a9ee.up.railway.app")
+                .setAllowedOrigins("https://real-time-chat-application-production-a9ee.up.railway.app")
                 .withSockJS();
     }
 
