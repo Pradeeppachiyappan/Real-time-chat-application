@@ -37,7 +37,7 @@
         document.getElementById('sendMessage').disabled = !connected;
     }
     function connect(){
-        var socket = new SockJS('https://real-time-chat-application-production-a9ee.up.railway.app/chat');
+        var socket = new SockJS('https://real-time-chat-application-9fpj.onrender.com/chat');
         stompClient = Stomp.over(socket);
         stompClient.connect({},function (frame) {
            setConnected(true);
